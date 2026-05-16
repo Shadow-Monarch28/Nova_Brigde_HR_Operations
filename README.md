@@ -145,16 +145,16 @@ Power BI → NovaBridge_Solutions_Dashboard.pbix → 5-page dashboard
 ![Executive Summary](Visuals/01_Executive_Summary.png)
 
 ### Interaction Analysis
-![Interaction Analysis](Visuals/02_Interaction_Analysis.png)
+![Interaction Analysis](visuals/interaction_distributions.png)
 
 ### Customer Satisfaction
-![Customer Satisfaction](Visuals/03_Customer_Satisfaction.png)
+![Customer Satisfaction](Vvisuals/survey_eda.png)
 
 ### Agent Performance
-![Agent Performance](Visuals/04_Agent_Performance.png)
+![Agent Performance](visuals/performance_metrics_distribution.png)
 
 ### Schedule & Workforce
-![Schedule & Workforce](Visuals/05_Schedule_Workforce.png)
+![Schedule & Workforce](visuals/schedule_eda_KPI.png)
 
 ---
 
