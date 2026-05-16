@@ -148,7 +148,7 @@ Power BI → NovaBridge_Solutions_Dashboard.pbix → 5-page dashboard
 ![Interaction Analysis](visuals/interaction_distributions.png)
 
 ### Customer Satisfaction
-![Customer Satisfaction](Vvisuals/survey_eda.png)
+![Customer Satisfaction](visuals/survey_eda.png)
 
 ### Agent Performance
 ![Agent Performance](visuals/performance_metrics_distribution.png)
