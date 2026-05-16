@@ -142,7 +142,7 @@ Power BI → NovaBridge_Solutions_Dashboard.pbix → 5-page dashboard
 ## 📸 Dashboard Screenshots
 
 ### Executive Summary
-![Executive Summary](Visuals/01_Executive_Summary.png)
+![Executive Summary](visuals/schedule_adherence_trend_KPI.png)
 
 ### Interaction Analysis
 ![Interaction Analysis](visuals/interaction_distributions.png)
