@@ -43,15 +43,15 @@ Synthetic data generated using Faker and pandas.
 
 ## 🔄 Pipeline
 
-Python → generate_novabridge_data.py → 4 raw CSV files
-↓
-MySQL → Import raw CSVs → SQL cleaning scripts → 4 clean tables
-↓
-Python → EDA_Nova_Bridge.ipynb → Exploratory Data Analysis
-↓
-Python → KPI_Calculation.ipynb → KPI calculation + CSV export
-↓
-Power BI → NovaBridge_Solutions_Dashboard.pbix → 5-page dashboard
+1. Python → generate_novabridge_data.py → 4 raw CSV files
+                        
+2. MySQL → Import raw CSVs → SQL cleaning scripts → 4 clean tables
+                        
+3. Python → EDA_Nova_Bridge.ipynb → Exploratory Data Analysis
+                        
+4. Python → KPI_Calculation.ipynb → KPI calculation + CSV export
+                        
+5. Power BI → NovaBridge_Solutions_Dashboard.pbix → 5-page dashboard
 
 
 ---
