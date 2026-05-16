@@ -4,10 +4,6 @@
 
 ---
 
-## 🚀 How to Run This Project
-
-> ⚠️ CSV files are not included in this repository due to file size limits.
-> Run the data generator to create them locally.
 
 ## 📌 Project Overview
 End-to-end data analytics project simulating a real-world BPO/CSR 
@@ -125,15 +121,37 @@ Power BI → NovaBridge_Solutions_Dashboard.pbix → 5-page dashboard
 ---
 
 ## 🚀 How to Run This Project
-1. Clone this repository
-2. Run `generate_novabridge_data.py` — generates 4 raw CSV files
-3. Import CSVs into MySQL using MySQL Workbench
-4. Run SQL scripts from `Source_Code/SQL/Raw/` first, then `Cleaned/`
-5. Open `Source_Code/Python/EDA_Nova_Bridge.ipynb` — update MySQL credentials in connection cell
-6. Run `Source_Code/Python/KPI_Calculation.ipynb` — exports final CSVs
-7. Open `Source_Code/NovaBridge_Solutions_Dashboard.pbix`
-8. Update data source path to your local Finalized folder
-9. Click Refresh
+
+> ⚠️ CSV files are not included in this repository due to file size limits.
+> Run the data generator to create them locally.
+
+1. Clone this repository: [Click Here](Data_Generator/generate_novabridge.py)  
+2. Install the following libraries: pandas, numpy, faker, sqlalchemy, mysql-connector-python, python-dotenv
+3. Generate raw data files: `generate_novabridge.py`
+4. This creates 4 CSV files:
+   - `interaction_file.csv` — 1,000,000 rows
+   - `performance_file.csv` — ~861 rows
+   - `survey_report.csv` — ~209,510 rows
+   - `schedule_adherence_file.csv` — ~3,472 rows
+5. Import CSVs into MySQL
+   - Open MySQL Workbench
+   - Create a database called `nova_bridge`
+   - Import each CSV as a new table
+6. Run SQL cleaning scripts in order
+   - `Source_Code/SQL/Cleaned/01_interaction_cleaning.sql`
+   - `Source_Code/SQL/Cleaned/02_performance_cleaning.sql`
+   - `Source_Code/SQL/Cleaned/03_survey_cleaning.sql`
+   - `Source_Code/SQL/Cleaned/04_schedule_adherence_cleaning.sql`
+7. Run Python notebooks
+   - Open `Source_Code/Python/EDA_Nova_Bridge.ipynb`
+   - Update MySQL credentials in the connection cell
+   - Run all cells
+   - Open `Source_Code/Python/KPI_Calculation.ipynb`
+   - Run all cells — exports final CSVs to `Finalized/` folder
+8. Open Power BI dashboard
+   - Open `Source_Code/NovaBridge_Solutions_Dashboard.pbix`
+   - Update data source path to your local `Finalized/` folder
+   - Click **Home → Refresh**
 
 > ⚠️ **Note:** Update MySQL username, password and database name in the Python notebooks before running.
 
