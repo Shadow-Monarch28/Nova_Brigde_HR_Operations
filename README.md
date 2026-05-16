@@ -177,7 +177,7 @@ Synthetic data generated using Faker and pandas.
 ---
 
 ## 👤 Author
-**Avishek** | Aspiring Data Analyst
+**Abishek** | Aspiring Data Analyst
 Currently transitioning from Customer Service Representative at Wipro
 into a Data Analyst role.
 
