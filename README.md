@@ -1,6 +1,6 @@
 # NovaBridge Solutions — BPO Analytics Dashboard
 
-![Executive Summary](Visuals/01_Executive_Summary.png)
+![Executive Summary](Visuals/schedule_adherence_trend (KPI).png)
 
 ---
 
